@@ -1,0 +1,388 @@
+ body{
+    font-family: 'Open Sans', sans-serif;
+ } 
+
+
+header{
+    position: relative;
+}
+.clos{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+
+}
+.ico-nav:hover{
+    color: rgb(236, 14, 14);  
+
+    cursor: pointer;
+}
+.clos .tt{
+    color: white;
+    font-size: 35px;
+    border: black solid 2px;
+    padding: 5px;
+    background-color: black;
+
+}
+
+.lis{
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    border-color: rgb(14, 2, 14);
+}
+.gev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    
+}
+
+.gev1 {
+    position: absolute;
+    top: 36%;
+    left: 0;
+}
+
+
+.gev a, .gev1 a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 200;
+   
+}
+
+
+.itemss{
+position: relative;
+}
+.itemss-h{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+
+}
+.itemss-h h1{
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+}
+.ico-nav{
+    color: white;
+}
+.aboutus{
+    position: relative;
+    z-index: 10;
+}
+.about{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    font-weight: 700;
+    font-size: 40px;
+}
+.aboutt{
+    color: rgb(231, 226, 226);
+    font-size: 70px;
+    font-weight: 700;
+}
+.aboutus::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(104, 102, 102);
+}
+.aboutus:hover .aboutt::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 2px;
+    width:60px;
+    background-color: rgb(104, 102, 102);
+
+}
+.our-team{
+    margin-top: 10rem;
+}
+.ourteam{
+    position: relative;
+    z-index: 20;
+}
+.team{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    font-weight: 700;
+    font-size: 45px;
+}
+.teams{
+    color: rgb(231, 226, 226);
+    font-size: 100px;
+    font-weight: 700;
+}
+.ourteam::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(104, 102, 102);
+}
+.ourteam:hover .teams::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 2px;
+    width:60px;
+    background-color: rgb(104, 102, 102);
+
+}
+.photo{
+    overflow: hidden;
+}
+.photo.item{
+overflow: hidden;
+}
+.test1{
+    position: relative;
+overflow: hidden;
+}
+.test2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(242, 84, 84, 0.85);
+opacity: 0;
+}
+ .test1 .icon{
+    font-size: 16px;
+}
+.photo:hover .test2{
+    opacity: 1;
+}
+
+.photo img{
+    transition: transform 0.5s;
+
+}
+.photo:hover img{
+    transform: scale(1.1,1.1);
+}
+.photo h5{
+    transition: color 0.5s;
+   
+}
+.photo:hover h5{
+  color: rgb(236, 14, 14);  
+}
+
+.item-text p{
+    font-size: 16px;
+}
+.bt .btn1{
+    background-color:  rgb(236, 14, 14); 
+
+color: white;
+padding:10px  2rem;
+font-size: 18px;
+}
+.textt{
+    color: rgb(177, 172, 172);
+    font-size: 18px;
+
+}
+.test-g:hover a{
+    background-color:rgb(161, 10, 5);
+  
+}
+.serv-text{
+position: relative;
+
+}
+.serv1{
+    position: absolute;
+    font-size: 40px;
+left: 45%;
+bottom: 5%;
+font-weight: 700;
+}
+.serv{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(231, 226, 226);
+
+}
+
+.line hr{
+    width: 2rem;
+    border-color: rgb(24, 23, 23);
+
+}
+.servs:hover hr{
+width: 4rem;
+
+}
+.serves{
+    background-color:#fafafa;
+    margin: 5rem 0;
+}
+.tagg{
+}
+.tag-ico{
+    float: left;
+
+}
+.clear{
+ clear: both;   
+}
+.caption{
+    padding-left: 4rem;
+}
+.tagg:hover h4{
+    color: #f25454;
+
+}
+.tag{
+    font-size: 25px;
+    color: #f25454;
+    opacity: 0.7;
+}
+.caption p{
+    font-size: 16px;
+}
+.client{
+}
+.client-p{
+    font-size: 30px;
+}
+.client-icon{
+    font-size: 30px;
+    opacity: 0.7;
+    text-align: center;
+    
+}
+.client-icons{
+    margin: 60px 0;
+}
+.client-iconn{
+    margin: 10px 0;
+
+}
+.touch{
+    background-color:#fafafa;
+
+}
+.adress:hover h4{
+    color: #f25454;
+  
+    
+}
+.btn3:hover{
+    background-color: brown;
+}
+.adr{
+  font-size: 30px; 
+  color: #f25454;
+  opacity: 0.8;
+
+}
+.lin hr{
+    border-color: rgb(231, 227, 227);
+   
+}
+.btn3{
+    background-color: #f25454;
+font-weight: 700;
+}
+.form-control{
+    padding: 20px;
+    box-shadow: rgb(228, 226, 225) 1px 1px 1px;
+}
+footer{
+    background-color: rgba(10, 10, 10, 0.9);
+    padding: 1rem 0;
+}
+.fot{
+position: relative;
+background: rgb(31, 31, 31,1);
+clear: both;
+padding-top: 60px;
+padding-bottom: 60px;
+background-image:url(../img/dotted-map.png) 
+;
+background-size: contain;
+}
+
+.recent a{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+    cursor: pointer;
+}
+.recent a:hover{
+
+
+    color: #f25454;
+}
+.fg a:hover{
+    border:#f25454 solid 2px;
+}
+
+.fg a {
+    border: rgb(219, 216, 219) solid 1px;
+    padding:5px 10px;
+    border-radius: 5%;
+}
+.c:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.dd:hover {
+    color: #f25454;
+cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+ .itemss-h h1{
+     font-size: 20px;
+ }   
+ .fs{
+width: 0%;
+opacity: 0;
+ }
+ .clos ,.gev,.gev1, .lis{
+     opacity: 0;
+ }
+ .itemss img{
+     height: 600px;
+     width: 600px;
+}
+.serv1{
+  top:40%;
+  left: 35%;
+    
+}
+
+     
+}
+.icoo{
+    font-size: 30px;
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    z-index: 9999999;
+    cursor: pointer;
+    color: brown;
+}
+
